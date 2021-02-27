@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #db6286;
+}
+
+.judul {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-left: 36%;
+    color: rgb(255, 255, 255);
+}
+
+.h1-login {
+    font-family: 'HelveticaNeue', 'Arial', sans-serif;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 30px;
+    height: 10%;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+form {
+    background-color: #292c3b;
+    text-align: center;
+    margin: 0px auto;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 170px;
+    box-shadow: 5px 5px 5px rgb(109, 109, 109);
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #34384a;
+    background-color: #31364a;
+    padding: 10px;
+    font-size: 22px;
+    height: 20px;
+    width: 100%;
+    padding-left: 30px;
+    color: #ffffff;
+
+}
+
+input[type="submit"] {
+    width: 50%;
+    padding: 5px;
+    margin-top: 22px;
+    border-radius: 15px;
+    display: block;
+    margin-left: 22px;
+    border: 1px solid rgb(128, 125, 125);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 144, 144);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+
+
+}
+
+@media screen and (max-width:800px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    form {
+        height: 100%;
+        margin: 0 auto;
+        width: 100%;
+        position: fixed;
+        justify-content: center;
+    }
+}
